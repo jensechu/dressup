@@ -1,0 +1,31 @@
+.container div {
+
+}
+
+/* Body Controls */
+#body {
+    background: url('../images/female_body.png') no-repeat;
+    height: 650px;
+}
+
+#body #head {
+    height: 100px;
+}
+
+#body #torso {
+    height: 185px;
+}
+
+#body #legs {
+    height: 355px;
+}
+
+#body div {
+    border: 1px solid green;
+}
+
+
+/* Swatch Controls */
+#swatches li {
+    display: inline;
+}

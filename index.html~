@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+
+    <title>RPG Character Creator</title>
+    <meta name="description" content="Create a character for your next RPG.">
+    <meta name="keywords" content="character creator, character, D&D, dungeons and dragons, fantasy">
+
+    <!--- CSS Files --->
+    <link href="/js/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+
+    <!--- JS Files --->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+	<div class="span5">
+	  <h1>RPG Character Creator</h1>
+	</div>
+      </div>
+    </div>
+
+  </body>
+</html>
