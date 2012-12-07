@@ -9,6 +9,16 @@ $(document).ready(function() {
 	$("#"+swatchPart+" > img").attr({"src": swatchImage});
     }
 
+    // Sets the body to use only the swatches with a default class.
+    function reset_dressup() {
+	$('.default').each(function(){
+	    dressup(this);
+	});
+    }
+
+    // Set the body to defaults onload.
+    reset_dressup();
+
     // Swatch Button
     $('#swatches li').click(function() {
 	dressup(this);
@@ -17,7 +27,7 @@ $(document).ready(function() {
     // Reset Button
     // Takes imgs with class 'default' and sets them on the body.
     $('#reset').click(function() {
-	
+	reset_dressup();
     });
 	
     
