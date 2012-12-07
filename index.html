@@ -28,15 +28,15 @@
 
 	    <div id="body">
 	      <div id="head">
-		<img src="HEAD-ITEM" />
+		<img src="HEAD-ITEM" />head
 	      </div> 
 
 	      <div id="torso">
-		<img src="TORSO-ITEM" />
+		<img src="TORSO-ITEM" />torso
 	      </div> 
 
 	      <div id="legs">
-		<img src="LEGS-ITEM" />
+		<img src="LEGS-ITEM" />legs
 	      </div> 
 	    </div>
 	  </div>	    
@@ -44,10 +44,19 @@
 	  <div class="span3">
 	    <div id="swatches">
 	      <h2>Swatches</h2>
+
+	      <div class="btn-toolbar">
+		<div class="btn-group">
+		  <button class="btn">Randomize</button>
+		  <button class="btn" id="reset">Reset</button>
+		  <button class="btn">Save</button>
+		</div>
+	      </div>
+
 	      <ul title="head">
 		<li>Head</li>
 		<li><img src="imgblahblah" /></li>
-		<li><img src="imgblahblah" /></li>
+		<li><img class="default" src="thisshouldbeadefault" /></li>
 		<li><img src="imgblahblah" /></li>
 		<li><img src="imgblahblah" /></li>
 		<li><img src="imgblahblah" /></li>
@@ -55,14 +64,18 @@
 
 	      <ul title="torso">
 		<li>Torso</li>
+		<li><img class="default" src="thisshouldbeadefault" /></li>
 		<li><img src="imgblahblah" /></li>
 	      </ul>
 
 	      <ul title="legs">
 		<li>Legs</li>
 		<li><img src="imgblahblah" /></li>
+		<li><img class="default" src="thisshouldbeadefault" /></li>
 	      </ul>
 	    </div> 
+	    
+
 
 	  </div>
 	</div>

@@ -8,20 +8,12 @@
     height: 650px;
 }
 
-#body #head {
-    height: 100px;
-}
-
-#body #torso {
-    height: 185px;
-}
-
-#body #legs {
-    height: 355px;
-}
-
 #body div {
     border: 1px solid green;
+    position: absolute;
+    height: 650px;
+    width: 310px;
+
 }
 
 
