@@ -25,7 +25,6 @@ $(document).ready(function() {
     });
 
     // Reset Button
-    // Takes imgs with class 'default' and sets them on the body.
     $('#reset').click(function() {
 	reset_dressup();
     });
